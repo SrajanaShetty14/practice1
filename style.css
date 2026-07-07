@@ -1,0 +1,39 @@
+*{
+    color: rgb(58, 27, 195);
+}
+#first{
+    color: blueviolet;
+    text-decoration: underline dashed blue;
+    font-size: 50px;
+    line-height: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+}
+#second{
+    color:rgb(0,56,0);
+}
+.purple{
+    color:rgba(200,10,5,0.5);
+    font-size: 30px;
+    text-align: center;
+}
+#Box
+{
+    background-color: tomato;
+    height: 30px;
+    width: 100px;
+    margin:20px ;
+}
+#outer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.box{
+    background-color: blueviolet;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    padding: 40px;
+}
