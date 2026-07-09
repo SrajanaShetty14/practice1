@@ -8,14 +8,20 @@
     line-height: 50px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-transform: uppercase;
+    justify-content: end;
 }
 #second{
     color:rgb(0,56,0);
+    flex-wrap: wrap-reverse;
+    display: block;
+    position: relative;
+    translate: 20px;
 }
 .purple{
     color:rgba(200,10,5,0.5);
     font-size: 30px;
     text-align: center;
+    align-items: center;
 }
 #Box
 {
@@ -28,6 +34,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+
 }
 .box{
     background-color: blueviolet;
