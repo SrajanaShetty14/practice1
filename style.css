@@ -32,7 +32,7 @@
     height: 30px;
     width: 100px;
     margin:20px ;
-    padding: 50px;
+    padding: 40px;
 }
 #outer{
     display: flex;
@@ -51,3 +51,8 @@
     text-align: center;
     padding: 40px;
 }
+#box1{
+
+    background-image: url("Lord\ Krishna.jpg");
+    background-size: cover;
+} 
